@@ -11,9 +11,9 @@ namespace snakeAndLadder
             int position = 0;
             Random random = new Random();
             int rollDieNo = random.Next(1, 7);
-           // int optionOfGame = random.Next(0, 3);
+            int optionOfGame = random.Next(0, 3);
             Console.WriteLine("Roll Die Number " + rollDieNo);
-           /* switch (optionOfGame)
+            switch (optionOfGame)
             {
                 case 0:
                     Console.WriteLine("Position : " + position);
@@ -30,7 +30,7 @@ namespace snakeAndLadder
 
                 default:
                     break;
-            }  */  
+            }  
         }
     }
 }
